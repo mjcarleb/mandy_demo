@@ -1,7 +1,42 @@
 mandy_demo
 ==============================
 
-Demo of project lifecycle
+Functional goals:
+- numpy like library for matrix algebra
+- Array object
+    - elements
+    - methods
+        - .transpose()
+        - .dot()
+        - .tolist()
+        - .std()
+        - .mean()
+        - .shape()
+        
+- Matrix object
+    - elements
+    - methods
+        - .transpose()
+        - .dot()
+        - .tolist()
+        - .std()
+        - .mean()
+        - .shape()
+        - .determinant()
+        - .inverse() https://www.intmath.com/matrices-determinants/inverse-matrix-gauss-jordan-elimination.php
+
+Technical Python goals:
+- Use isa inheritance
+- Use nested list, dictionary comprehension
+- Use context manager
+- Use generator
+- Use decorator
+- Use property
+- Use hasa composition
+- Setup unit tests
+- Use pytest runner to run tests
+- Make importable module and package
+- Explore requirements.txt and setup.py
 
 Project Organization
 ------------
