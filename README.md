@@ -18,11 +18,14 @@ Functional goals:
 
 Technical Python goals:
 - Use isa inheritance
-- Use nested list, dictionary comprehension
+- Lambda functions, map, filter, reduce
+- Use list comprehension
+- Use nested list comprehension
+- Use dictionary comprehension
 - Use context manager
 - Use generator
-- Use decorator
-- Use property
+- Use decorator (function, class, @wraps, functools)
+- Use property, setter, getter
 - Use hasa composition
 - Setup unit tests
 - Use pytest runner to run tests
