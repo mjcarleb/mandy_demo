@@ -19,6 +19,8 @@ Steps to create and install local package to import as you would true open sourc
 
 NOTE:  Other option (less elegant that above), just add path to package directory to sys.path (either inside python
        code or by changing environment variable for $PATH
+       
+TBD:  tests folder should be at same level as setup.py...need to explore how to get unit tests to be part of package
 """
 setup(
    name='my_numpy',
