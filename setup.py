@@ -4,6 +4,7 @@ from setuptools import find_packages, setup
 See these links for more about modules, packages and distributions (including setup.py): 
    - https://packaging.python.org/tutorials/packaging-projects/ 
    - https://docs.python.org/3/distutils/setupscript.html
+   - https://www.tutorialsteacher.com/python/python-package
    
 Steps to create and install local package to import as you would true open source software:
 1.  Create parent directory for package(s) anywhere

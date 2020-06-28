@@ -1,3 +1,16 @@
+"""
+We are using default Python built-in unittst framework
+
+There is also pytest framework (alternative to unittest)
+- https://realpython.com/pytest-python-testing/
+- https://www.slant.co/versus/9148/9149/~unittest_vs_pytest
+- https://pythontesting.net/framework/pytest/pytest-introduction/
+- https://pythontesting.net/framework/pytest/pytest-introduction/#discovery
+
+NOTE:  In pytest, I found "discovery" of tests to be confusing.   It all has to do with directory structure, naming
+       conventions, where you run tests from, etc.  The 2nd link above explains pretty well.
+
+"""
 import unittest
 from my_numpy.Array import my_ndarray as mnp
 
