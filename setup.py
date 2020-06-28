@@ -1,9 +1,10 @@
 from setuptools import find_packages, setup
 
 """
-See:  https://docs.python.org/3/distutils/setupscript.html
-Try examples with multiple packages
-
+See these links for more about modules, packages and distributions (including setup.py): 
+   - https://packaging.python.org/tutorials/packaging-projects/ 
+   - https://docs.python.org/3/distutils/setupscript.html
+   
 Steps to create and install local package to import as you would true open source software:
 1.  Create parent directory for package(s) anywhere
 2.  Create package directory anywhere (with __init__, which might no longer be necessary?)
