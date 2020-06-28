@@ -53,6 +53,6 @@
 - (done) core tutorials:  57 (unit testing)
 - (done, see setup.py comments) get rid of src and module name in import (import src.my_numpy.Array as mnp)
 - (done) get usage of 'package' vs 'module' correct
-- (done, see tests/tests.py) get understanding of unittst vs. pytest
+- (done, see tests/tests.py) get understanding of unittst vs. pytest...including discovery!
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
