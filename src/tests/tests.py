@@ -1,5 +1,5 @@
 import unittest
-from src.my_numpy.Array import my_ndarray as mnp
+from my_numpy.Array import my_ndarray as mnp
 
 
 class TestArray(unittest.TestCase):
