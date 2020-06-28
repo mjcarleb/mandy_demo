@@ -1,5 +1,6 @@
 """
-We are using default Python built-in unittst framework
+We are using default Python built-in unittest framework (see definition of test runner here)
+- https://realpython.com/pytest-python-testing/
 
 There is also pytest framework (alternative to unittest)
 - https://realpython.com/pytest-python-testing/
