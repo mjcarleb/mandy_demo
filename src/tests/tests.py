@@ -1,15 +1,29 @@
 """
 We are using default Python built-in unittest framework (see definition of test runner here)
-- https://realpython.com/pytest-python-testing/
+- https://docs.python.org/3/library/unittest.html
 
 There is also pytest framework (alternative to unittest)
 - https://realpython.com/pytest-python-testing/
 - https://www.slant.co/versus/9148/9149/~unittest_vs_pytest
 - https://pythontesting.net/framework/pytest/pytest-introduction/
 - https://pythontesting.net/framework/pytest/pytest-introduction/#discovery
+- https://docs.pytest.org/en/stable/goodpractices.html
+- https://docs.pytest.org/en/stable/example/pythoncollection.html
+- https://docs.pytest.org/en/stable/customize.html
 
 NOTE:  In pytest, I found "discovery" of tests to be confusing.   It all has to do with directory structure, naming
-       conventions, where you run tests from, etc.  The 2nd link above explains pretty well.
+       conventions, where you run tests from, etc.  Many of the links above attempt to explain the complex protocol
+       with myriads of optionality/complexity (e.g., parameters specified in any ".ini" file (e.g., tox.ini).
+
+       Finding the rootdir (from https://docs.pytest.org/en/stable/customize.html):
+            Here is the algorithm which finds the rootdir from args:
+
+                -determine the common ancestor directory for the specified args that are recognised as paths that exist in the file system. If no such paths are found, the common ancestor directory is set to the current working directory.
+                -look for pytest.ini, tox.ini and setup.cfg files in the ancestor directory and upwards. If one is matched, it becomes the ini-file and its directory becomes the rootdir.
+                -if no ini-file was found, look for setup.py upwards from the common ancestor directory to determine the rootdir.
+                -if no setup.py was found, look for pytest.ini, tox.ini and setup.cfg in each of the specified args and upwards. If one is matched, it becomes the ini-file and its directory becomes the rootdir.
+                -if no ini-file was found, use the already determined common ancestor as root directory. This allows the use of pytest in structures that are not part of a package and don’t have any particular ini-file configuration.
+                -If no args are given, pytest collects test below the current working directory and also starts determining the rootdir from there.
 
 """
 import unittest

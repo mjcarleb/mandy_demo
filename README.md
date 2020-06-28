@@ -40,7 +40,6 @@
 - core tutorials:  40, 41 (oop)
 - core tutorials:  42, 43, 44, 45 (oop)
 - core tutorials:  49 (context managers)
-- core tutorials:  52, 53 (logging)
 - (assigned for 6/28) core tutorials:  57 (unit testing)
 - core tutorials 90, 91, 92 (iterables)
 
