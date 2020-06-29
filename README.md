@@ -35,7 +35,7 @@
 
 ## Corey videos:
 - (assigned for 6/28) core tutorials: 9, 13  (imports & pip)
-- core tutorials:  20, 36 (comprehensions & generators)
+- (assinged for 7/5/20)  core tutorials:  20, 36 (comprehensions & generators)
 - core tutorials:  37, 38 (decorators)
 - core tutorials:  40, 41 (oop)
 - core tutorials:  42, 43, 44, 45 (oop)
@@ -47,5 +47,10 @@
 
 ## Upcoming week to do list:
 - Due date:  7/5/20
+- Learn about comprehensions (list, nested list and dict) and generators
+- Create a generator that produce infinitely long fibonacci sequence
+- Create list comprehension and dict comprehension to store the first 10 fib values
+- Separately created a nested list
+- Watch Corey videos (20 & 36)
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
