@@ -4,7 +4,6 @@ We are using default Python built-in unittest framework (see definition of test 
 
 There is also pytest framework (alternative to unittest)
 - https://realpython.com/pytest-python-testing/
-- https://www.slant.co/versus/9148/9149/~unittest_vs_pytest
 - https://pythontesting.net/framework/pytest/pytest-introduction/
 - https://pythontesting.net/framework/pytest/pytest-introduction/#discovery
 - https://docs.pytest.org/en/stable/goodpractices.html

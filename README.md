@@ -44,14 +44,8 @@
 - core tutorials 90, 91, 92 (iterables)
 
 ## General to do list:
-- (done) get rid of src and module name in import (import src.my_numpy.Array as mnp)
 
 ## Upcoming week to do list:
-- Due date:  6/28/20
-- (done) core tutorials: 9, 13  (imports & pip)
-- (done) core tutorials:  57 (unit testing)
-- (done, see setup.py comments) get rid of src and module name in import (import src.my_numpy.Array as mnp)
-- (done) get usage of 'package' vs 'module' correct
-- (done, see tests/tests.py) get understanding of unittst vs. pytest...including discovery!
+- Due date:  7/5/20
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
