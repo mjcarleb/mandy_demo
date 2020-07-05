@@ -34,9 +34,12 @@
 ## Upcoming week to do list:
 - Due date:  7/12/20
 - Watch Corey 90,91,92
-- Try to create pyTest unit tests for mynumpy
+- Try to create pyTest unit tests for myNumpy
 - Use map to create list of squares of numbers 0-9 (0, 1, 4, 9, etc.)
-- Use filter to create squares <= 49
-- Use reduce to create sum of the squares <= 49
+- Use filter on previous list to create squares <= 49
+- Use reduce on previous list to create sum of the squares <= 49
+- Read:  https://stackoverflow.com/questions/18072759/list-comprehension-on-a-nested-list
+- Flatten a list using list comprehension
+- Create nested list using comprehension
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
