@@ -38,6 +38,7 @@
 - Use map and lambda function to create list of squares of numbers 0-9 (0, 1, 4, 9, etc.)
 - Use filter and lambda function on previous list to create squares <= 49
 - Use reduce and lambda function on previous list to create sum of the squares <= 49
+-  NOTE:  import reduce from functools
 - Read:  https://stackoverflow.com/questions/18072759/list-comprehension-on-a-nested-list
 - Flatten a list using list comprehension
 - Create nested list using comprehension
