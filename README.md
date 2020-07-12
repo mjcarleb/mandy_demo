@@ -26,8 +26,10 @@
 - core tutorials:  42, 43, 44, 45 (oop)
 - core tutorials:  49 (context managers)
 - (assigned for 6/28) core tutorials:  57 (unit testing)
-- (assigned for 7/12/20)  core tutorials 90, 91, 92 (iterables)
+- (assigned for 7/12/20)  core tutorials 90, 91 (iterables)
 - another guy on args kwargs https://www.youtube.com/watch?v=WcTXxX3vYgY
+- (assigned) socratica ladies on map/reduce:  https://www.youtube.com/watch?v=hUes6y2b--0
+- (assigned) socratica ladies on lambda:  https://www.youtube.com/watch?v=25ovCm9jKfA
 
 ## General to do list:
 
