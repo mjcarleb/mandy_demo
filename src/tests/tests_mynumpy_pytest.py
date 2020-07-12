@@ -33,4 +33,4 @@ if __name__ == '__main__':
     unittest.main()
 '''
 if __name__ == '__main__':
-    pytest.main(["-x", "./py_tests.py"])
+    pytest.main()
