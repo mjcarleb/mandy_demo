@@ -1,15 +1,23 @@
 ## Technical Python goals:
-- (done) Setup unit tests
-- (done) Use pytest runner to run tests
-- (done) Explore requirements.txt and setup.py
-- (done) Make importable module and package
+- (TBD) Create virtual environment using pipenv
+- (TBD) Run programs in Docker container (optional when Mark took)
+- (TBD) If using Docker, connect PyCharm IDE to Python interpreter running in the Docker container (or on AWS instance) to debug code running in container (https://www.dabbleofdevops.com/blog/setup-pycharm-to-use-a-project-interpreter-in-a-docker-compose-service)
+- (done) Use PyCharm to create programs and debug
+- (done) Use git and GitHub for version control
+- (done) Understand module vs. package vs. distribution
+- (done) Know to create distribution using setup.py
+- (done) Know how to install local "my_package" in site packages using pip install . so that you can import from my_package just like you import numpy
+- (done) Create and run unit tests using UnitTest
+- (done) Create and run unit tests using pytest
+- (done) Modify .ini files to control test discovery by pytest
 - (done) Use list comprehension
 - (done) Use dictionary comprehension
 - (done) Use generator
-- (done) Lambda functions, map, filter, reduce
+- (done) Use lambda functions, map, filter, reduce
 - (done) Use nested list comprehension
-- (done) Use *args and **kwargs
-- (done) Use context manager
+- (done) Use *args and **kwargs inside of function
+- (done) Use * and ** to pass values to arguments of function
+- (done) Create context manager with class and with @contextmanager
 - Use decorator (function, class, @wraps, functools)
 - Use __call__()
 - Use property, setter, getter
@@ -17,6 +25,7 @@
 - Use isa inheritance
 - Use hasa composition
 - Use __super__()
+- Use command line arguments
 
 ## Corey (et. al.) videos:
 - (assigned for 6/28) core tutorials: 9, 13  (imports & pip)
