@@ -30,7 +30,7 @@
 ## Corey (et. al.) videos:
 - (assigned for 6/28) core tutorials: 9, 13  (imports & pip)
 - (assigned for 7/5)  core tutorials:  20, 36 (comprehensions & generators)
-- (assigned for 7/26) core tutorials:  37, 38 (decorators)
+- (assigned for 7/26) core tutorials:  37, 38,45 (decorators)
 - core tutorials:  40, 41 (oop)
 - core tutorials:  42, 43, 44, 45 (oop)
 - (assigned for 7/19) core tutorials:  49 (context managers)
@@ -42,7 +42,7 @@
 
 ## Upcoming week to do list:
 - Due Data:  7/26/20
-- Watch Corey video 37, 38 on decorators
+- Watch Corey video 37, 38, 45 on decorators
 - Read https://stackoverflow.com/questions/22182748/call-property-getter-setter-deleter-python
 - Create/use decorator with no parameters
     - Create as a function
