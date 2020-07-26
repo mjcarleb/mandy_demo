@@ -293,6 +293,31 @@ print()
 # Now pass arguments to decorator function
 ####################
 
+# Unusual use case to pass arguments to decorator
+# Just like above with one more layer of wrapping
+
+def dec_with_args(x):
+    def my_decorator(func):
+        def wrapper(*args, **kwargs):
+            # This is executed when the decorated function is executed
+            print(f"this is arg passed to decororater x={x}")
+            print("This is from functional decorator #2!")
+            print(f"name of decorated function = {func.__name__}")
+
+            # Be sure to load the decorated function with its arguments
+            return func(*args, **kwargs)
+        return wrapper
+    return my_decorator
+
+print("Using decorator with arguments")
+print("================================")
+@dec_with_args(x=17)
+def salutation(person):
+    print(f"Hello, {person}")
+salutation("Mandy")
+print()
+
+
 
 
 
