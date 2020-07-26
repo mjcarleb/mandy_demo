@@ -43,7 +43,6 @@
 ## Upcoming week to do list:
 - Due Data:  7/26/20
 - Watch Corey video 37, 38, 45 on decorators
-- Read https://stackoverflow.com/questions/22182748/call-property-getter-setter-deleter-python
 - Create/use decorator with no parameters
     - Create as a function
     - Create with @wraps and functools
