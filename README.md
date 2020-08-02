@@ -18,40 +18,33 @@
 - (done) Use *args and **kwargs inside of function
 - (done) Use * and ** to pass values to arguments of function
 - (done) Create context manager with class and with @contextmanager
-- Use decorator (function, class, @wraps, functools)
-- Use __call__()
-- Use property, setter, getter
-
-- Use isa inheritance
-- Use hasa composition
-- Use __super__()
-- Use command line arguments
+- (done) Use decorator (function, class, @wraps, functools)
+- (done) Use __call__()
+- (done) Use property, setter, getter
+- Only discussed briefly (see article below on composition, argparse, etc.):
+    - Use isa inheritance
+    - Use hasa composition
+    - Use __super__()
+    - Use command line arguments
 
 ## Corey (et. al.) videos:
 - (assigned for 6/28) core tutorials: 9, 13  (imports & pip)
 - (assigned for 7/5)  core tutorials:  20, 36 (comprehensions & generators)
 - (assigned for 7/26) core tutorials:  37, 38,45 (decorators)
-- core tutorials:  40, 41 (oop)
-- core tutorials:  42, 43, 44, 45 (oop)
+- (did not watch) core tutorials:  40, 41 (oop)
+- (did not watch) core tutorials:  42, 43, 44, 45 (oop)
 - (assigned for 7/19) core tutorials:  49 (context managers)
 - (assigned for 6/28) core tutorials:  57 (unit testing)
 - (assigned for 7/12)  core tutorials 90, 91 (iterables)
 - (assigned for 7/19) another guy on args kwargs https://www.youtube.com/watch?v=WcTXxX3vYgY
 - (assigned for 7/12) socratica ladies on map/reduce:  https://www.youtube.com/watch?v=hUes6y2b--0
 - (assigned for 7/12) socratica ladies on lambda:  https://www.youtube.com/watch?v=25ovCm9jKfA
+- (scanned only) article/tutorial on "isa" and "hasa" object design:  https://realpython.com/inheritance-composition-python/
+- (scanned only) argparse:  https://docs.python.org/3/library/argparse.html
 
-## Upcoming week to do list:
-- Due Data:  7/26/20
-- Watch Corey video 37, 38, 45 on decorators
-- Create/use decorator with no parameters
-    - Create as a function
-    - Create with @wraps and functools
-    - Create as a class
-- Create/use decorator with parameters
-    - Created as a function
-    - Created with @wraps and functools
-    - Created as a class
-- Use __call__()
-- Use @property decorator to create getter, setter and deleter
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+## Today Sunday 8/2:
+- Review @property decorator to create getter, setter and deleter
+- Look at example with argparse, etc.
+- Look at example with __super__()
+- Look at article on argparse
+- Look at article on inheritance and composition
