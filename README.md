@@ -27,7 +27,7 @@
     - Use __super__()
     - Use command line arguments
 
-## Corey (et. al.) videos:
+## Videos and links (i.e., resources):
 - (assigned for 6/28) core tutorials: 9, 13  (imports & pip)
 - (assigned for 7/5)  core tutorials:  20, 36 (comprehensions & generators)
 - (assigned for 7/26) core tutorials:  37, 38,45 (decorators)
