@@ -45,6 +45,6 @@
 ## Today Sunday 8/2:
 - Review @property decorator to create getter, setter and deleter
 - Look at example with argparse, etc.
-- Look at example with __super__()
 - Look at article on argparse
+- Look at example with __super__()
 - Look at article on inheritance and composition
