@@ -1,6 +1,17 @@
 ## Technical Python goals:
 - (TBD) Create virtual environment using pipenv
-- (TBD) Run programs in Docker container (optional when Mark took)
+- (Done) Run programs in Docker container (8/29/20)
+    - Discuss docker daemon, images, containers, Dockerfile
+    - Dockerfile
+    - Build image from command line
+    - Spin up image from command line
+    - Use image as interpreter in PyCharm
+    - Run hello_world program with image as interpreter
+    - Spin-up image as container
+    - Push image to Dockerhub
+    - Install docker on  iOS
+    - Try spinning up image from command line of iOS
+
 - (TBD) If using Docker, connect PyCharm IDE to Python interpreter running in the Docker container (or on AWS instance) to debug code running in container (https://www.dabbleofdevops.com/blog/setup-pycharm-to-use-a-project-interpreter-in-a-docker-compose-service)
 - (done) Use PyCharm to create programs and debug
 - (done) Use git and GitHub for version control
